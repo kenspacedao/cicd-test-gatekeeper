@@ -6,5 +6,5 @@ def test_system_telemetry_packet():
 
 def test_operational_threshold():
    threshold = 100
-   current_value = 85
+   current_value = 150
    assert current_value <= threshold, "Value exceeds maximum operational limit"
